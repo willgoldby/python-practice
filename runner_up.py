@@ -17,8 +17,6 @@ def runner_up(n, arr):
         print(sort_arr[-2])
     
 if __name__ == '__main__':
-    #n = int(input())
-    #arr = map(int, input().split())
-    n = 4
-    arr = [57, 57, -57, 57]
+    n = int(input())
+    arr = map(int, input().split())
     runner_up(n,arr)
